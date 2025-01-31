@@ -8,7 +8,7 @@ pipeline {
             bat "${python} code.py"
            }
         }
-    }
+    
     stage('Test') {
         steps {
             dir("CalculatorTests"){
@@ -26,5 +26,5 @@ pipeline {
            }
         }
     }
-    }
-
+}
+    
