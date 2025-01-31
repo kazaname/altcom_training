@@ -1,1 +1,2 @@
-print("Hello World")
+print("Hello World Marek")
+print("Hello from webhooks")
